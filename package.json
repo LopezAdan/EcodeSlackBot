@@ -1,15 +1,22 @@
 {
-  "name": "slack_jokebot",
-  "version": "1.0.0",
-  "description": "Slackbot that tells random jokes",
-  "main": "index.js",
+  "name": "ecodeslackbot",
+  "version": "0.1.0",
+  "description": "\"Ecode Slack Bot\"",
+  "main": "app.js",
   "scripts": {
-    "start": "node index.js"
+    "test": "npm test"
   },
-  "author": "Brad Traversy",
-  "license": "MIT",
-  "dependencies": {
-    "axios": "^0.18.0",
-    "slackbots": "^1.1.0"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LopezAdan/EcodeSlackBot.git"
+  },
+  "keywords": [
+    "slackbot"
+  ],
+  "author": "Adan Lopez & Noe Trejo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LopezAdan/EcodeSlackBot/issues"
+  },
+  "homepage": "https://github.com/LopezAdan/EcodeSlackBot#readme"
 }
